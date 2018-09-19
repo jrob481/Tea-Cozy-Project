@@ -1,10 +1,12 @@
 .Top header img {
 
 height: 69px;
-width: auto;
-position: relative;
+width: 100 auto;
+position: fixed;
 display: flex;
-margin: 10px 10px;
+margin-top: 100% auto;
+background-color: black;
+
 
 }
 .tea {
