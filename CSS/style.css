@@ -1,18 +1,30 @@
-.Top header img {
+.Top header{
 border-bottom: 1px solid seashell;
 height: 69px;
 width: 100 auto;
 position: fixed;
 display: flex;
+flex-direction: row;
 margin-top: 100% auto;
 background-color: black;
 top: 0;
 padding-right: 100%;
 padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 20px;
 }
 .click li {
   display: inline-block;
+  text-align: right;
+  width: 20px;
+  height: 40px;
+  color: white;
+  margin: 10px 30px 40px 30px;
+  top: 20px;
+  
+
+
+
+
 
 }
 .tea {
@@ -38,6 +50,4 @@ body {
 .description {
   background-color: black;
   width: 100%;
-
-
 }
