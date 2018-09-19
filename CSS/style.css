@@ -1,11 +1,15 @@
 .Top header img {
-
+border-bottom: 1px solid seashell;
 height: 69px;
 width: 100 auto;
 position: fixed;
 display: flex;
 margin-top: 100% auto;
 background-color: black;
+top: 0;
+padding-right: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
 
 
 }
@@ -29,7 +33,7 @@ body {
   background-color: black;
   opacity: 0.9;
 }
-h2 {
+h2 p{
 
 
 }
