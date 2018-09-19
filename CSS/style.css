@@ -47,6 +47,31 @@ body {
   background-color: black;
   width: 100%;
 }
-h2 {
+.five {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  flex-wrap: wrap;
 
+  }
+.berry img {
+  height: 200px;
+  width: 300px;
+}
+.rum img {
+  height: 200px;
+  width: 300px;
+}
+.donut img {
+  height: 200px;
+  width: 300px;
+}
+.myrtle img {
+  height: 200px;
+  width: 300px;
+}
+.bedford img {
+  height: 200px;
+  width: 300px;
 }
