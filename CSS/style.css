@@ -10,8 +10,10 @@ top: 0;
 padding-right: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
-
-
+}
+.click li {
+  display: inline-block;
+  
 }
 .tea {
   display: flex;
