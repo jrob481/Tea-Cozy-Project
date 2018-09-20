@@ -67,6 +67,9 @@ body {
   justify-content: center;
 
 }
+.pics h4 {
+  margin-top: 5px;
+}
 .berry img {
   height: 200px;
   width: 300px;
@@ -89,4 +92,11 @@ body {
 .bedford img {
   height: 200px;
   width: 300px;
+}
+.Bottom {
+  width: 1200px;
+  height: 600px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-left: 30px;
+  margin-top: 60px;
 }
