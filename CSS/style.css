@@ -47,21 +47,35 @@ body {
   background-color: black;
   width: 100%;
 }
-.five {
-  display: flex;
+.five  {
+  display: inline-block;
   flex-direction: row;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 1000px;
-  flex-wrap: wrap;
-
+  margin-top: 60px;
+  margin-left: 110px;
   }
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
 .berry img {
   height: 200px;
   width: 300px;
+  margin-right: 30px;
 }
 .rum img {
   height: 200px;
   width: 300px;
+  margin-right: 30px;
 }
 .donut img {
   height: 200px;
@@ -70,6 +84,7 @@ body {
 .myrtle img {
   height: 200px;
   width: 300px;
+  margin-right: 30px;
 }
 .bedford img {
   height: 200px;
