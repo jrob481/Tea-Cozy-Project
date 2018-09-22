@@ -3,23 +3,27 @@ border-bottom: 1px solid seashell;
 height: 69px;
 width: 100 auto;
 position: fixed;
-display: flex;
+display: inline-block;
 flex-direction: row;
+justify-content: flex-start;
+
 margin-top: 100% auto;
 background-color: black;
 top: 0;
 padding-right: 100%;
 padding-top: 10px;
 padding-bottom: 20px;
+z-index: 1;
+
 }
 .click li {
   display: inline-block;
+  flex-direction: row;
   width: 80%;
   height: 40px;
   color: white;
-  margin: 10px 30px 40px 30px;
+  margin: 10px 10px 10px 10px;
   top: 20px;
-
 
 }
 .tea {
@@ -93,7 +97,7 @@ body {
   height: 200px;
   width: 300px;
 }
-.Bottom {
+.locate {
   display: flex;
   flex-direction: column;
   width: 1200px;
@@ -145,4 +149,15 @@ body {
   align-items: center;
   height: 260px;
   width: 300px;
+}
+.Bottom {
+  text-align: center;
+
+}
+.copyright {
+  text-align: left;
+}
+.Bottom h2 {
+  padding-bottom: 10px;
+
 }
