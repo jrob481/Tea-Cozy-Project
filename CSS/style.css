@@ -23,6 +23,7 @@ opacity: 0.75;
   color: white;
   margin: 10px 10px 10px 10px;
   top: 20px;
+  
 
 }
 .tea {
@@ -36,7 +37,6 @@ opacity: 0.75;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   margin-left: 30px;
   margin-top: 100px;
-
 
 }
 body {
